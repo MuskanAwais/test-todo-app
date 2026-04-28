@@ -5,7 +5,7 @@ export default function Home() {
   const [todos, setTodos] = useState([])
   const [title, setTitle] = useState("")
 
-  const API = "http://localhost:5000"
+  const API = process.env.NEXT_PUBLIC_API_URL
 
   // Fetch todos
   const fetchTodos = async () => {

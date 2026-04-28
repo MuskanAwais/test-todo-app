@@ -1,7 +1,6 @@
 # dependencies
 node_modules/
 venv/
-.env
 
 # builds
 dist/
@@ -14,3 +13,4 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+config.bat
